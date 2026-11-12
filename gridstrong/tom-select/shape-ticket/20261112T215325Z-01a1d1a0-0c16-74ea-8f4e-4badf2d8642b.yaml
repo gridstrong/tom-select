@@ -1,0 +1,25 @@
+skill: shape-ticket
+session: 01a1d1a0-0c16-74ea-8f4e-4badf2d8642b
+ts: 2026-11-12T21:53:25Z
+repo: gridstrong/tom-select
+items:
+  - kind: ticket
+    key: E-4867
+    outcome: written
+author:
+  name: Grant Hutchins
+  email: git@nertzy.com
+gauntlet_version: 8.4.11
+models:
+  - anthropic-fable/claude-fable-5-2
+  - github-copilot/gpt-6.1-terra:medium
+  - github-copilot/grok-4.7:low
+  - github-copilot/gpt-6-astra:low
+  - anthropic-fable/claude-fable-5-2:low
+  - github-copilot/gpt-6.1-sol:low
+tokens:
+  input: 32146
+  output: 78110
+  cache_read: 4590595
+  cache_write: 425405
+cost: 7.981761250000001
